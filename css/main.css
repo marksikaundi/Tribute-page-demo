@@ -1,0 +1,61 @@
+body {
+    background-color: aqua;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 450px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+}
+
+@media (max-width: 450px) {
+    #image-caption {
+        font-size: 1.4rem;
+    }
+}
+
+ul {
+    text-align: left;
+    line-height: 1.6;
+    margin: 0 auto 50px auto;
+    max-width: 550px;
+}
+
+li {
+    margin: 16px 0;
+}
+
+#heading {
+    margin: 50px 0;
+    text-align: center;
+}
+
+#quote {
+    font-style: italic;
+    text-align: left;
+    font-size: 30px;
+}
